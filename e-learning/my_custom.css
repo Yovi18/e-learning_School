@@ -1,0 +1,97 @@
+/* tampilan tablet dan HP */
+.wrapper {
+   display: flex;
+}
+#sidebar {
+   display: none;
+   width: 300px ;
+   color: whitesmoke;
+}
+
+.bg-nav-sidebar {
+   background-color: rgb(30, 60, 80);
+   height: 100%;
+   
+}
+.nav-sidebar{
+   padding: 20px;
+}
+.nav-sidebar h4{
+   margin-left: 20px;
+}
+.profile-sidebar {
+   display:flex;
+}
+
+.foto-profile {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background-color: white;
+}
+.foto-profile .picture {
+   border-radius: 50%;
+   width: 80%;
+   height: 80%;
+   margin: 10%;     
+}
+.profile-info {
+   padding-left: 10px;
+}
+/* menu-sidebar */
+.menu-sidebar {
+   margin-top: 20px;
+}
+.menu-sidebar li {
+   margin-top: 10px;
+   text-decoration: none;
+   list-style: none;
+}
+.menu-sidebar li a {
+   text-decoration: none;
+   color: inherit;
+}
+.menu-sidebar li span {
+   font-size: 13px;
+   padding-left: 20px;
+}
+.menu-sidebar li ul :hover{
+   margin-left: 10px;
+   background-color:rgb(30, 70, 80) ;
+}
+
+
+/* footer-sidebar */
+.bg-footer-sidebar {
+   margin-top: -16px;
+   background-color: rgb(20, 50, 60);
+}
+.footer-sidebar {
+   padding: 10px;
+   box-sizing:border-box;
+}
+.footer-sidebar a {
+   padding: 15px;
+   color: inherit;  
+}
+
+/* navbar-konten */
+.konten {
+   padding: 0px;
+}
+
+.konten .bg-light {
+   background-color: rgb(12, 12, 12);
+}
+.isi {
+   padding: 20px;
+}
+
+
+
+/* Tambilan laptop */
+@media (min-width:768px){
+   div#sidebar {
+      display:block;
+   }   
+}

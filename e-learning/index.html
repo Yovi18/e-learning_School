@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Dashboard</title>
+
+   <!-- link bootstrap -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+   <!-- link awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
+
+
+   <!-- my css -->
+   <link rel="stylesheet" href="my_custom.css">
+
+   <!--  -->
+
+
+</head>
+<body>
+   <div class="wrapper">
+      <!-- side bar -->
+      <div id="sidebar">
+         <div class="bg-nav-sidebar">
+            <div class="container-fluid">
+               <!-- nav - sidebar -->
+               <div class="row nav-sidebar">
+                  <a href=""><i class="fas fa-school fa-2x" style="color: whitesmoke;"></i></a>
+                  <h4>SMAPU</h4>
+               </div>
+               <!-- akhir nav- sidebar -->
+               <!-- profile-sidebar -->
+               <div class="profile-sidebar">
+                  <div class="foto-profile">
+                     <img src="picture/yovi.jpg" alt="" class="picture">
+                  </div>
+                  <div class="profile-info">
+                     <h5>selamat Datang</h5>
+                     <p>Yovi Azhari</p>
+                  </div>
+               </div>
+               <!-- akhir profil side-bar -->
+               <!-- pilihan sidebar -->
+               <div class="menu-sidebar">
+                  <h3>General</h3> 
+                  <ul>
+                     <li>
+                        <a href="">
+                           <i class="fas fa-home fa-lg"></i>
+                           <span>HOME</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#wali_kelas" aria-expanded="false"  data-toggle="collapse">
+                           <i class="fas fa-user-alt fa-lg" style="color: whitesmoke;"></i>
+                           <span>WALI KELAS</span>
+                        </a>
+                        <ul id="wali_kelas" class="collapse">
+                           <li>
+                              <a href="">Info</a>
+                           </li>
+                           <li>
+                              <a href="">SPP dan Administrasi</a>
+                           </li>
+                           <li>
+                              <a href="">Jurnal</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="#data_tendik" aria-expanded="false"  data-toggle="collapse">
+                           <i class="fas fa-chalkboard-teacher fa-lg" style="color: whitesmoke;"></i>
+                           <span>TENDIK</span>
+                        </a>
+                        <ul id="data_tendik" class="collapse">
+                           <li>
+                              <a href="">Admin</a>
+                           </li>
+                           <li>
+                              <a href="">Guru</a>
+                           </li>
+                           <li>
+                              <a href="">Maintaince</a>
+                           </li>
+                        </ul>
+                     </li>
+               
+                     <li>
+                        <a href="#kesiswaan" data-toggle="collapse">
+                           <i class="fas fa-user-friends fa-lg" style="color: whitesmoke;"></i>
+                           <span>KESISWAAN</span>
+                        </a>
+                        <ul id="kesiswaan" class="collapse">
+                           <li>
+                              <a href="">Data Siswa</a>
+                           </li>
+                           <li>
+                              <a href="">Absensi dan Jurnal</a>
+                           </li>
+                           <li>
+                              <a href="">Alumni</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="#pembelajaran" data-toggle="collapse">
+                           <i class="fas fa-book-reader fa-lg" style="color: whitesmoke;"></i>
+                           <span>PEMBELAJARAN</span>
+                        </a>
+                        <ul id="pembelajaran" class="collapse">
+                           <li>
+                              <a href="">Perangkat</a>
+                           </li>
+                           <li>
+                              <a href="">Penilaian</a>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>   
+                  <h3>EKSKUL</h3>
+                  <ul>
+                     <li>
+                        <a href="">
+                           <i class="fas fa-home fa-lg"></i>
+                           <span>PRESTASI</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#lomba" aria-expanded="false"  data-toggle="collapse">
+                           <i class="fas fa-user-alt fa-lg" style="color: whitesmoke;"></i>
+                           <span>PERLOMBAAN</span>
+                        </a>
+                        <ul id="lomba" class="collapse">
+                           <li>
+                              <a href="">KSN</a>
+                           </li>
+                           <li>
+                              <a href="">Debat dan Karya Ilmiah</a>
+                           </li>
+                           <li>
+                              <a href="">FL2SN</a>
+                           </li>
+                        </ul>
+                     </li>
+               </div>
+            </div>
+               <!-- pilihan sidebar -->
+         </div>
+         <div class="bg-footer-sidebar">
+            <!-- footer - sidebar -->
+            <div class="footer-sidebar">
+               <a href="" data-toggle="tooltip" data-placement="top" title="Settings">
+                  <i class="fas fa-cogs fa-2x"></i>
+               </a>
+               <a href="" data-toggle="tooltip" data-placement="top" title="Info">
+                  <i class="fas fa-info-circle  fa-2x"></i>
+               </a>
+               <a href="" data-toggle="tooltip" data-placement="top" title="Logout">
+                  <i class="fas fa-sign-in-alt fa-2x"></i>
+               </a>
+            </div>
+            <!-- akhir footer-sidebar -->
+         </div>
+      </div>
+      <!-- akhir sidebar -->
+
+
+      <!-- Konten -->
+      <div class="konten container-fluid ">
+         <!-- nav-konten -->
+         <div class="">
+            <nav class="navbar navbar-light" style="background-color: rgb(235, 235, 235);">
+               <div class="nav">
+                  <div class="toggle">
+                     <button id="sidebar-toggle" type="button" class="btn btn-secondary">
+                        <i class="fas fa-bars"></i>
+                     </button>
+                  </div>
+               </div>
+            </nav>
+         </div>   
+            <!-- akhir nav-konten -->
+
+            <!-- isi konten -->
+            <div class="isi">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima at dolorum tempora doloribus nulla nam nostrum omnis facilis? Ab quod repellendus mollitia dolorum laboriosam qui reiciendis culpa ea optio sunt!</p><br>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo corrupti esse sequi facilis asperiores omnis minus, ullam voluptates, voluptatum porro, doloremque debitis qui distinctio placeat provident mollitia molestiae odit maiores.</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima at dolorum tempora doloribus nulla nam nostrum omnis facilis? Ab quod repellendus mollitia dolorum laboriosam qui reiciendis culpa ea optio sunt!</p><br>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo corrupti esse sequi facilis asperiores omnis minus, ullam voluptates, voluptatum porro, doloremque debitis qui distinctio placeat provident mollitia molestiae odit maiores.</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima at dolorum tempora doloribus nulla nam nostrum omnis facilis? Ab quod repellendus mollitia dolorum laboriosam qui reiciendis culpa ea optio sunt!</p><br>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo corrupti esse sequi facilis asperiores omnis minus, ullam voluptates, voluptatum porro, doloremque debitis qui distinctio placeat provident mollitia molestiae odit maiores.</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima at dolorum tempora doloribus nulla nam nostrum omnis facilis? Ab quod repellendus mollitia dolorum laboriosam qui reiciendis culpa ea optio sunt!</p><br>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo corrupti esse sequi facilis asperiores omnis minus, ullam voluptates, voluptatum porro, doloremque debitis qui distinctio placeat provident mollitia molestiae odit maiores.</p>
+            </div>
+            <!-- isi konten -->
+            
+            <!-- footer konten -->
+            
+            <!-- akhir footer konten -->
+      </div>
+      <!-- Akhir Konten -->
+   </div>
+
+   <!--  -->
+   
+
+   <!-- script jquery -->
+   <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+
+   <!-- scrip bootrap -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+   
+   <!-- my-Script -->
+   <script src="my_script.js"></script>
+
+</body>
+</html>
