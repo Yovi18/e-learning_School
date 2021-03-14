@@ -27,13 +27,13 @@
    width: 60px;
    height: 60px;
    border-radius: 50%;
-   background-color: white;
+   border: 3px solid white
 }
 .foto-profile .picture {
    border-radius: 50%;
-   width: 80%;
-   height: 80%;
-   margin: 10%;     
+   width: 100%;
+   height: 100%;
+   object-fit: cover;     
 }
 .profile-info {
    padding-left: 10px;
